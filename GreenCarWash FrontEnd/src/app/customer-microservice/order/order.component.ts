@@ -58,7 +58,6 @@ export class OrderComponent implements OnInit {
       this.promos=promo;
 
     })
-
     this.customer.getCarDetails().subscribe(carDetails=>{
       this.details=carDetails;
 

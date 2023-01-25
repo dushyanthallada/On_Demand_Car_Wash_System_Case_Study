@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.*;
 
 @CrossOrigin("http://localhost:4200")
 @RestController
-@RequestMapping("/Admin")
+@RequestMapping("/admin")
 public class AuthController {
 
     @Autowired
